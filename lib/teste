@@ -1,0 +1,6 @@
+curl --request POST \
+  -H 'Content-Type: application/json' \
+  -H 'X-User-Email: nicolas@teste.com' \
+  -H 'X-User-Token: 1z8kDEr6wABa2dDKDbJ1' \
+  -d '{ "restaurant": { "name": "New restaurant", "address": "London", "category": "korean" } }' \
+  https://the-fork.api.lewagon.com/api/v1/restaurants | jq
